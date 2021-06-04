@@ -1,6 +1,5 @@
-const func = (a: string) => {
-    a = "this is a simple function using docker and typescript!";
-    return a;
+const func = (a: number, b: number): number  => {
+    return a+b
 }
 
 module.exports = func;
