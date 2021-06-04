@@ -18,6 +18,7 @@ app.get('/api/customers', (req: Request, res: Response, next: NextFunction) => {
         { id: 2, first: 'jane', last: 'doe' },
         { id: 3, first: 'bob', last: 'jones' }
     ];
+    res.json(customers);
 });
 
 const PORT = process.env.PORT || 3000;
